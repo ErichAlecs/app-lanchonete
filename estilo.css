@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    position:absolute;
+    top: center;
+    left: center;
+}
+
+#fundo-cabeçalho{
+    position: relative;
+    width: 100vw;
+    height: 20vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#titulo1{
+    text-align: center;
+}
+
+#produto{
+    font-family: Courier;
+    font-size: large;
+    text-align: center;
+}
+
+#preco{
+    font-family: Courier;
+    font-size: large;
+}
+
+#ingrediente{
+    font-family: Courier;
+    font-size: large;
+}
+
+#botao{
+    font-size: 20px;
+    background-color: rgb(65, 226, 15);
+    border: 0;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #ffffff;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1.5px 1.5px 1.5px rgba(0,0,0,0.5);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+#botao :hover{
+    background: rgb(30, 255, 0);
+    box-shadow: inset 2px 2px 2px rgb(0, 0, 0);
+    text-shadow: none;
+}
+
+input{
+    border-radius: 5px;
+    color: rgb(75, 75, 75);
+    border: 1.5px solid saddlebrown;
+    background-color: rgb(248, 193, 145);
+    box-shadow: 2px 2px 2px rgb(167, 167, 167);
+    padding: 10px;
+}
+
+header,footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    display:block;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgb(75, 75, 75);
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 30px;
+}
+#inputs{
+    text-align: center;
+}
